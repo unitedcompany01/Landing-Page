@@ -1,0 +1,55 @@
+.header-logo {
+    width: 15%; /* Use percentage for responsiveness */
+    max-width: 100px; /* Maintain max size */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    border: 3px solid white; /* Optional: Add a border for better visibility */
+  }
+  .header-container {
+    position: relative;
+    padding: 40px 0; /* Adjust for header spacing */
+  }
+  .main-image {
+    max-width: 200px;
+    border-radius: 10px; /* Slightly rounded corners for the main image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for a more passionate look */
+  }
+  .about-text {
+    font-size: 1.2rem; /* Increase font size for emphasis */
+    line-height: 1.5; /* Improve readability */
+  }
+
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    .header-logo {
+      width: 25%; /* Adjust size for smaller devices */
+      max-width: 80px; /* Set a new max size for smaller screens */
+    }
+    .about-text {
+      font-size: 1rem; /* Reduce font size on smaller screens */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .header-logo {
+      width: 35%; /* Further adjust for very small devices */
+      max-width: 60px; /* Further max size */
+    }
+    .main-image {
+      max-width: 150px; /* Adjust main image size */
+    }
+    .about-text {
+      font-size: 0.9rem; /* Further reduce font size */
+    }
+  }
+  .img-wrapper{
+
+    background-color: rgba(0, 191, 255, 0.8);
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Space around the image */
+    max-width: 800px; /* Limit the width */
+    margin: auto; /
+  }
